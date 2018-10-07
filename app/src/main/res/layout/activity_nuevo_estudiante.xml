@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoEstudiante"
+    android:layout_margin="15dp">
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/txtcodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codigo"/>
+    <EditText
+        android:id="@+id/txtmateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Materia"/>
+    <EditText
+        android:id="@+id/txtprimer"
+        android:inputType="number"
+        android:maxLength="3"
+        android:digits="0123456789."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer Parcial         30%"/>
+    <EditText
+        android:maxLength="3"
+        android:id="@+id/txtsegundo"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo Parcial     30%"/>
+    <EditText
+        android:maxLength="3"
+        android:id="@+id/txttercer"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tercer Parcial         40%"/>
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"/>
+</LinearLayout>
